@@ -1,0 +1,49 @@
+.header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+  a.item {
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  a.item:hover {
+    background-color: #5e6d8b;
+    
+  }
+
+  a.active {
+    color: yellow;
+  }
+
+  .searchBar {
+    display: flex;
+    align-items: center;
+  }
+
+  .searchBtn {
+    padding: 0 10px;
+  }

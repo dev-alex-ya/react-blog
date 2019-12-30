@@ -1,26 +1,85 @@
+.App {
+
+}
+
 .container {
-  width: 960px;
+  width: 1140px;
+  margin: 0 auto;
 }
 
+.posts {
+  display: flex;
+  margin-top: 30px;
+}
 
-.header {
-  width: 100%;
+.pub-date {
+  color: gray;
+  font-size: smaller;
+}
+
+.filter {
+  margin-right: 20px;
+}
+
+.date {
+  margin-bottom: 20px;
+}
+
+.submit {
   background-color: #282c34;
-  /* min-height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px 20px;
   font-size: calc(10px + 2vmin);
-  color: white;
+  border: none;
+}
+.submit:hover {
+  background-color: #5e6d8b;
 }
 
-.menu {
-  
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+.title {
+  margin: 0;
+}
+
+
+
+
+
+@media screen and (prefers-color-scheme: dark) {
+	body, input {
+		color: #f1f1f1;
+	}
+	body {
+		background: #171717;
+	}
+	.search-bar input {
+		box-shadow: 0 0 0 0.4em #f1f1f1 inset;
+	}
+	.search-bar input:focus,
+	.search-bar input:valid {
+    background: #3d3d3d;
+		box-shadow: 0 0 0 0.1em #3d3d3d inset;
+	}
+	.search-btn {
+		background: #f1f1f1;
+	}
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
 }
