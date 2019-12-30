@@ -1,1 +1,1 @@
-# gatsby-blog
+# react-blog
