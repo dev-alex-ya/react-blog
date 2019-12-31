@@ -7,39 +7,7 @@
   margin: 0 auto;
 }
 
-.posts {
-  display: flex;
-  margin-top: 30px;
-}
 
-.pub-date {
-  color: gray;
-  font-size: smaller;
-}
-
-.filter {
-  margin-right: 20px;
-}
-
-.date {
-  margin-bottom: 20px;
-}
-
-.submit {
-  background-color: #282c34;
-  cursor: pointer;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: calc(10px + 2vmin);
-  border: none;
-}
-.submit:hover {
-  background-color: #5e6d8b;
-}
-
-.title {
-  margin: 0;
-}
 
 
 
