@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/dev-alex-ya/gatsby-blog#readme",
   "dependencies": {
-    "strapi": "^3.0.0-beta.17.8"
+    "strapi": "^3.6.11"
   }
 }
